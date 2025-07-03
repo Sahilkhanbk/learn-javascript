@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>password checker</title>
+</head>
+<style>
+    .container {
+        /* display: flex; */
+        align-items: center;
+        justify-content: center;
+        margin-top: 10rem;
+        margin-left: 19rem;
+
+    }
+
+    .inputbox {
+        padding: 20px;
+        font-size: 20px;
+        width: 20rem;
+        height: 0.5rem;
+        /* border: solid 3px red; */
+    }
+
+    .para {
+        font-size: 1.5rem;
+    }
+
+    button {
+        position: absolute;
+        margin-top: 30rem;
+        padding: 10px;
+    }
+
+    .bar {
+        background-color: #e2e2e2;
+        height: 5px;
+        width: 26%;
+    }
+
+    .fill {
+        width: 0;
+        height: 100%;
+        transition: width .7s;
+    }
+</style>
+
+<body>
+
+    <div class="container">
+
+        <input type="text" class="inputbox" type="password">
+        <p class="para"></p>
+
+
+        <div class="bar">
+            <div class="fill"></div>
+        </div>
+
+        <button>night</button>
+
+    </div>
+
+</body>
+<script>
+    const input = document.querySelector(".inputbox")
+    const para = document.querySelector(".para")
+    const btn = document.querySelector("button")
+    const body = document.querySelector("body")
+    const fill = document.querySelector(".fill");
+
+    btn.addEventListener("click", () => {
+        body.style.backgroundColor = "black"
+        input.style.backgroundColor = "rgb(235, 163, 208)"
+    })
+
+    input.addEventListener("input", () => {
+        let user = input.value;
+
+        if (user.length <= 6) {
+            para.innerHTML = "Weak";
+            para.style.color = " red";
+            input.style.border = "4px solid red";
+            fill.style.width = "30%";
+            fill.style.backgroundColor = "red";
+
+        } else if (user.length <= 16 ) {
+            para.innerHTML = "Better";
+            para.style.color = " orange"
+            input.style.border = "4px solid orange";
+            fill.style.width = "60%";
+            fill.style.backgroundColor = "orange";
+
+        } else if (user.length <= 20 ) {
+            para.innerHTML = "Strong";
+            para.style.color = " green";
+            input.style.border = "4px solid green";
+            fill.style.width = "100%"
+            fill.style.backgroundColor = "green"
+        }
+    })
+
+</script>
+
+</html>

@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    align-items: center;
+    /* justify-content: center; */
+    /* margin-top: 6rem; */
+    background-color: rgb(250, 249, 249);
+
+}
+
+.deleteButton{
+    margin-left: 14rem;
+    cursor: pointer;
+    font-size: 30px;
+    font-weight: 600;
+    position: absolute;
+    margin-right: 0px;
+}
+
+.index {
+    margin-top: 3rem;
+    height: 3rem;
+    width: 23rem;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+#input-box {
+    width: 15rem;
+    height: 3rem;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 22px;
+
+}
+
+#button {
+    width: 6rem;
+    border-radius: 5px;
+    height: 3rem;
+    padding: 10px;
+    font-size: 19px;
+}
+
+.task-list {
+    list-style-position: inside;
+    padding-left: 0px;
+    margin-top: 20px;
+    width: 100%;
+    text-align: left;
+    max-width: 20rem;
+}
+
+.li-task {
+    list-style: none;
+    margin-bottom: 8px;
+    font-size: 25px;
+    /* margin-top: 2px;
+    margin-left: 2px; */
+
+}

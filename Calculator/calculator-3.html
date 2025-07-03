@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator 3</title>
+</head>
+<style>
+    .container {
+        input: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .calculator {
+        margin-top: 80px;
+        background-color: rgb(174, 23, 94);
+
+    }
+
+    button {
+        padding: 30px;
+        font-size: 20px;
+        font-weight: 300;
+        margin: 0 7px;
+        border-radius: 30px;
+        background-color: pink;
+    }
+
+    .row {
+        margin: 9px;
+    }
+
+    .input-box {
+        input: flex;
+        align-items: center;
+        margin-top: 20px;
+        justify-content: center;
+    }
+
+    .input {
+        width: 22rem;
+        background-color: rgb(250, 250, 250);
+        font-size: 40px;
+        height: 4.5rem;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="calculator">
+            <div class="input-box">
+                <input type="text" class="input">
+            </div>
+            <div class="row">
+                <button>9</button>
+                <button>8</button>
+                <button>7</button>
+                <button>+</button>
+            </div>
+            <div class="row">
+                <button>6</button>
+                <button>5</button>
+                <button>4</button>
+                <button>-</button>
+            </div>
+            <div class="row">
+                <button>3</button>
+                <button>2</button>
+                <button>1</button>
+                <button>/</button>
+            </div>
+            <div class="row">
+                <button>0</button>
+                <button>*</button>
+                <button class="clear">C</button>
+                <button class="equal">=</button>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script>
+
+    const button = document.querySelectorAll("button")
+    const clean = document.querySelector("clear")
+    const equal = document.querySelector("equal")
+    const input = document.querySelector("input")
+
+
+
+// now i am making a calculator without eval
+
+
+
+
+
+
+
+
+
+
+
+
+
+    // its created using eval function
+
+    // button.forEach((btn) => {
+    //     btn.addEventListener("click", () => {
+
+    //         let value = btn.innerHTML;
+
+    //         if (btn.classList.contains("clear")) {
+    //             input.value = "";
+    //         } else if (btn.classList.contains("equal")) {
+    //             try {
+    //                 input.value = eval(input.value)
+    //             } catch (error) {
+    //                 input.value = "Erroe occerd"
+    //             }
+    //         } else {
+    //             input.value += value;
+    //         };
+
+    //     })
+    // })
+
+
+</script>
+
+</html>

@@ -1,0 +1,64 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: rgb(79, 33, 33);
+}
+
+.btns {
+    width: 700px;
+
+}
+
+.question {
+    font-size: 2rem;
+    color: #fff;
+    margin: 2rem;
+}
+
+button {
+    width: 40rem;
+    height: 3rem;
+    font-size: 1.3rem;
+    background-color: rgb(170, 32, 55);
+    color: #fff;
+    margin: 3px;
+}
+
+.next {
+    width: 20rem;
+    height: 2.5rem;
+    background-color: #1752bf;
+    margin-left: 24rem;
+    margin-top: 1.3rem;
+}
+
+.score{
+    font-size: 30px;
+    color: #fff;
+    margin-left: 60rem;
+}
+.next:hover {
+    background-color: rgb(38, 108, 194);
+    color: rgb(221, 215, 216);
+    font-weight: 600;
+}
+
+button:hover {
+    background-color: rgb(192, 60, 82);
+}
+
+.container {
+    align-items: center;
+    margin-top: 12rem;
+    margin-left: 30rem;
+}
+
+body {
+    align-items: center;
+    justify-content: center;
+}

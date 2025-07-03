@@ -1,0 +1,32 @@
+.container {
+    /* background-color: rgb(114, 108, 108); */
+    width: 20rem;
+    height: 30rem;
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    margin-top: 10rem;
+    margin-left: 40rem;
+
+}
+.calculator{
+
+}
+
+.buttons1 {
+    /* margin: 20px; */
+
+}
+
+#inputBox {
+    padding: 20px;
+    font-size: 20px;
+    width: 16.5rem;
+}
+
+button {
+    padding: 30px;
+    font-size: 20px;
+    font-weight: 400;
+    background-color: antiquewhite;
+}

@@ -1,0 +1,33 @@
+#userv {
+    width: 30rem;
+    height: 10rem;
+    font-size: 1.5rem;
+    /* margin-top: 9rem; */
+    margin-left: 40rem;
+}
+
+.btn {
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 40rem;
+}
+
+#target {
+    font-size: 1.5rem;
+    margin-top: 9rem;
+    margin-left: 40rem;
+}
+
+.start {
+    padding: 10px;
+    width: 110px;
+    font-size: 1.5rem;
+    margin-left: 40rem;
+}
+
+.done {
+    padding: 10px;
+    width: 110px;
+    font-size: 1.5rem;
+}

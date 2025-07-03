@@ -1,0 +1,34 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.main {
+    background-color: antiquewhite;
+    width: 26rem;
+    height: 20rem;
+    margin-top: 10rem;
+    margin-left: 40rem;
+}
+
+#input-box {
+    width: 25rem;
+    font-size: 20px;
+    border-radius: 5px;
+    height: 3rem;
+    margin-bottom: 1rem;
+}
+
+.butt button {
+    width: 5rem;
+    border-radius: 6px;
+    height: 2.5rem;
+    font-size: 2rem;
+    margin: 10px;
+    
+}
+button:hover{
+    background-color: rgb(182, 37, 153);
+    color: #fff;
+}
