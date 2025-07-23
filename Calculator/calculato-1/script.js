@@ -11,7 +11,6 @@ buttons.forEach(btn => {
         let val = btn.innerText;
 
         input.value += val;
-
     });
 });
 
